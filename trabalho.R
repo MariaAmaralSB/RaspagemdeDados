@@ -3,16 +3,16 @@ library(tidyverse)
 library(twitteR)
 library(readr)
 
-#validação twitter dev
-consumer_key <-"FO1bLFE87SzKM3zNSHunkUVP9"
-consumer_secret <-"5rbijCUwbEPFTygBofwju2PvXtM6FaVBxzuJ6Tgk3szwD0bEfG"
-access_token <-"987039759922089984-k9RDnV2NpFBUuKqexMZoSKD0GmsoOBU"
-access_secret<- "SG20cE4xzR5vO37CmqMu6M8UOxUbzZ5OyCbbouVAtJuOJ"
+#validaÃ§Ã£o twitter dev
+consumer_key <-" "
+consumer_secret <-" "
+access_token <-" "
+access_secret<- " "
 
 #connect
 setup_twitter_oauth(consumer_key, consumer_secret,access_token, access_secret)
 
-#algumas funções
+#algumas funÃ§Ãµes
 ?getTrends
 
 availableTrendLocations() %>% View
